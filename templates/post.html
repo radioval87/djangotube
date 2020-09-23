@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Пост пользователя {{ post.author.username }}{% endblock %}
+{% block content %}
+
+<main role="main" class="container">
+    <div class="row">
+        {% include 'includes/user_info.html' %}
+        <div class="col-md-9"> 
+            {% include "includes/post_item.html" with post=post %}
+            {% include 'includes/comments.html' %}
+        </div>
+    </div>    
+</main>
+
+{% endblock %}

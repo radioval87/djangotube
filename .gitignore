@@ -1,3 +1,26 @@
+.git/*
+
+sent_emails/
+.sent_emails
+.sent_emails/
+
+.idea
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*.sublime-project
+*.sublime-workspace
+
+static/
+posts/static/
+media/
+
+
+.vscode/*
+*.vscode
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -58,8 +81,6 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
-db.sqlite3-journal
 
 # Flask stuff:
 instance/

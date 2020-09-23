@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Последние обновления на сайте{% endblock %}
+{% block header %}Последние обновления на сайте{% endblock %}
+
+{% block content %}
+
+<main role="main" class="container">
+    {% include "includes/menu.html" with index=True %}
+        <div class="row">     
+                   
+            <div class="col-md-9" style="padding-left: 0; top:-5px">
+             
+                    {% for post in page %}
+                        
+                            {% include "includes/post_item.html" with post=post %}
+                        
+                    {% endfor %}
+                
+                {% if page.has_other_pages %}
+                    {% include "includes/paginator.html" with items=page paginator=paginator %}
+                {% endif %}
+            </div>
+        </div>    
+</main>
+{% endblock %}
+
