@@ -12,11 +12,6 @@ sent_emails/
 *.sublime-project
 *.sublime-workspace
 
-static/
-posts/static/
-media/
-
-
 .vscode/*
 *.vscode
 .vscode
