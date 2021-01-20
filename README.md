@@ -1,5 +1,5 @@
 # yatube
-Work (and learning) in progress. A training project made with Django and Bootstrap.  
+A training project made with Django and Bootstrap.  
 
 To run this project on your local machine, you may use Docker with 
 ```bash
