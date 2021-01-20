@@ -7,10 +7,9 @@ To run this project on your local machine, you may use Docker with
 'make run'  
 ```
 
-To login as admin use
+To login as admin go to localhost/admin and use
 
 username = admin
 
-login = admin
+password = admin
 
-and you'll have access to 'localhost/admin' route
